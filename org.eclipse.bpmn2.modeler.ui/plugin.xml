@@ -94,6 +94,12 @@
                     id="bpmn2.advanced.tab"
                     label="Advanced">
               </propertyTab>
+              <propertyTab
+                    afterTab="bpmn2.constraints.tab"
+                    category="BPMN2"
+                    id="bpmn2.constraints.tab"
+                    label="Constraints">
+              </propertyTab>
               
           </propertyTabs>
       </extension>
@@ -112,6 +118,12 @@
                     filter="org.eclipse.bpmn2.modeler.ui.property.Bpmn2PropertyFilter"
                     id="bpmn2.advanced.tab"
                     tab="bpmn2.advanced.tab">
+              </propertySection>
+              <propertySection
+                    class="org.eclipse.bpmn2.modeler.ui.property.ConditionPropertySection"
+                    filter="org.eclipse.bpmn2.modeler.ui.property.Bpmn2PropertyFilter"
+                    id="bpmn2.constraints.tab"
+                    tab="bpmn2.constraints.tab">
               </propertySection>
           </propertySections>
       </extension>
